@@ -21,6 +21,6 @@
     -webkit-box-orient: vertical;
 }
 ```
-<a href="(https://codepen.io/Leeyeonju/pen/porYQvp" target="_blank">결과 보기</a>
+[결과보기](https://codepen.io/Leeyeonju/pen/porYQvp)
 
 <br>

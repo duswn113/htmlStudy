@@ -1,24 +1,9 @@
-# 제목1
-## 제목2
-### 제목3
-#### 제목4
-##### 제목5
-###### 제목6
+# Input 태그
 
 <br>
 
-- 안녕하세요
-    - 뎁스2
-    - 뎁스2
-    - 뎁스2
-    - 뎁스2
-- 안녕하세요
-- 안녕하세요
-- 안녕하세요
-- 안녕하세요
-
-<br>
-
+## 여러개의 라디오태그 하나만 선택 되게
+- 모든 라디오태그의 name 값을 동일하게 한다.
 ```html
 <form action="target.html" method="get">
     <div class="test1">
@@ -34,9 +19,10 @@
     <button>저장</button>
 </form>
 ```
-
 ```css
 input[type="radio"]:checked + label {
     font-weight: bold;
 }
 ```
+
+<br>

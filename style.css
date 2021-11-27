@@ -1,15 +1,40 @@
-input[type="radio"]:checked + label {
-    font-weight: bold;
+.hamber { 
+    position: absolute; 
+    top:20px; 
+    right: 20px;
+    width: 35px;
+    height: 27px;
+    cursor: pointer;
+}
+.hamber span{
+    width:33px;
+    height:5px;
+    background:cadetblue;
+    display: inline-block;
+    position: absolute;
+    transition: all 0.4s;
+}
+.hamber .top{
+    top: 0;
+}
+.hamber .middle{
+    top:11px;
+}
+.hamber .bottom{
+    top:22px;
 }
 
-.sns p { 
-    width: 50%;
-    line-height: 25px;
-    height:95px;
-    font-size: 14px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
+.hamber.active .top {
+    top : 11px; 
+    background-color: black;
+    transform: rotate(45deg);
+}
+.hamber.active .middle{
+    opacity: 0;
+}
+
+.hamber.active .bottom {
+    top:11px;
+    background-color: black;
+    transform: rotate(-45deg);
 }
